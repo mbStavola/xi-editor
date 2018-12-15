@@ -1,5 +1,5 @@
 # The plugin manifest describes the plugin and its capabilities.
 # At the very least it must contain these three fields:
-name = "sample-plugin"
+name = "tree-sitter-plugin"
 version = "0.0"
-exec_path = "./bin/xi-sample-plugin"
+exec_path = "./bin/xi-tree-sitter-plugin"
