@@ -35,6 +35,7 @@ members = [
   "trace",
   "trace-dump",
   "unicode",
+  "tree-sitter-plugin",
 ]
 
 [profile.bench]

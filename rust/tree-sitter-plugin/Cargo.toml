@@ -1,0 +1,27 @@
+[package]
+name = "xi-tree-sitter-plugin"
+version = "0.0.0"
+license = "Apache-2.0"
+repository = "https://github.com/xi-editor/xi-editor"
+description = "An example plugin, for testing and illustration"
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+tree-sitter = "0.3.2"
+
+[dependencies.xi-plugin-lib]
+path = "../plugin-lib"
+
+[dependencies.xi-core-lib]
+path = "../core-lib"
+
+[dependencies.xi-rope]
+path = "../rope"
+
+[dependencies.xi-trace]
+path = "../trace"
+
+
+[build-dependencies]
+cc = "1.0"

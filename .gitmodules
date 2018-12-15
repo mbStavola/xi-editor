@@ -1,0 +1,72 @@
+[submodule "rust/tree-sitter-plugin/grammars/agda"]
+	path = rust/tree-sitter-plugin/grammars/agda
+	url = git@github.com:tree-sitter/tree-sitter-agda.git
+[submodule "rust/tree-sitter-plugin/grammars/bash"]
+	path = rust/tree-sitter-plugin/grammars/bash
+	url = git@github.com:tree-sitter/tree-sitter-bash.git
+[submodule "rust/tree-sitter-plugin/grammars/c"]
+	path = rust/tree-sitter-plugin/grammars/c
+	url = git@github.com:tree-sitter/tree-sitter-c.git
+[submodule "rust/tree-sitter-plugin/grammars/c-sharp"]
+	path = rust/tree-sitter-plugin/grammars/c-sharp
+	url = git@github.com:tree-sitter/tree-sitter-c-sharp.git
+[submodule "rust/tree-sitter-plugin/grammars/cpp"]
+	path = rust/tree-sitter-plugin/grammars/cpp
+	url = git@github.com:tree-sitter/tree-sitter-cpp.git
+[submodule "rust/tree-sitter-plugin/grammars/css"]
+	path = rust/tree-sitter-plugin/grammars/css
+	url = git@github.com:tree-sitter/tree-sitter-css.git
+[submodule "rust/tree-sitter-plugin/grammars/fluent"]
+	path = rust/tree-sitter-plugin/grammars/fluent
+	url = git@github.com:tree-sitter/tree-sitter-fluent.git
+[submodule "rust/tree-sitter-plugin/grammars/go"]
+	path = rust/tree-sitter-plugin/grammars/go
+	url = git@github.com:tree-sitter/tree-sitter-go.git
+[submodule "rust/tree-sitter-plugin/grammars/haskell"]
+	path = rust/tree-sitter-plugin/grammars/haskell
+	url = git@github.com:tree-sitter/tree-sitter-haskell.git
+[submodule "rust/tree-sitter-plugin/grammars/html"]
+	path = rust/tree-sitter-plugin/grammars/html
+	url = git@github.com:tree-sitter/tree-sitter-html.git
+[submodule "rust/tree-sitter-plugin/grammars/java"]
+	path = rust/tree-sitter-plugin/grammars/java
+	url = git@github.com:tree-sitter/tree-sitter-java.git
+[submodule "rust/tree-sitter-plugin/grammars/javascript"]
+	path = rust/tree-sitter-plugin/grammars/javascript
+	url = git@github.com:tree-sitter/tree-sitter-javascript.git
+[submodule "rust/tree-sitter-plugin/grammars/jsdoc"]
+	path = rust/tree-sitter-plugin/grammars/jsdoc
+	url = git@github.com:tree-sitter/tree-sitter-jsdoc.git
+[submodule "rust/tree-sitter-plugin/grammars/json"]
+	path = rust/tree-sitter-plugin/grammars/json
+	url = git@github.com:tree-sitter/tree-sitter-json.git
+[submodule "rust/tree-sitter-plugin/grammars/julia"]
+	path = rust/tree-sitter-plugin/grammars/julia
+	url = git@github.com:tree-sitter/tree-sitter-julia.git
+[submodule "rust/tree-sitter-plugin/grammars/ocaml"]
+	path = rust/tree-sitter-plugin/grammars/ocaml
+	url = git@github.com:tree-sitter/tree-sitter-ocaml.git
+[submodule "rust/tree-sitter-plugin/grammars/php"]
+	path = rust/tree-sitter-plugin/grammars/php
+	url = git@github.com:tree-sitter/tree-sitter-php.git
+[submodule "rust/tree-sitter-plugin/grammars/python"]
+	path = rust/tree-sitter-plugin/grammars/python
+	url = git@github.com:tree-sitter/tree-sitter-python.git
+[submodule "rust/tree-sitter-plugin/grammars/regex"]
+	path = rust/tree-sitter-plugin/grammars/regex
+	url = git@github.com:tree-sitter/tree-sitter-regex.git
+[submodule "rust/tree-sitter-plugin/grammars/ruby"]
+	path = rust/tree-sitter-plugin/grammars/ruby
+	url = git@github.com:tree-sitter/tree-sitter-ruby.git
+[submodule "rust/tree-sitter-plugin/grammars/rust"]
+	path = rust/tree-sitter-plugin/grammars/rust
+	url = git@github.com:tree-sitter/tree-sitter-rust.git
+[submodule "rust/tree-sitter-plugin/grammars/scala"]
+	path = rust/tree-sitter-plugin/grammars/scala
+	url = git@github.com:tree-sitter/tree-sitter-scala.git
+[submodule "rust/tree-sitter-plugin/grammars/swift"]
+	path = rust/tree-sitter-plugin/grammars/swift
+	url = git@github.com:tree-sitter/tree-sitter-swift.git
+[submodule "rust/tree-sitter-plugin/grammars/typescript"]
+	path = rust/tree-sitter-plugin/grammars/typescript
+	url = git@github.com:tree-sitter/tree-sitter-typescript.git
