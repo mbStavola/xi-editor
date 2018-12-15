@@ -25,6 +25,10 @@ use xi_rope::rope::RopeDelta;
 
 use tree_sitter::{InputEdit, Language, Parser, Point, Tree};
 
+use tree_iter::TreeIter;
+
+mod tree_iter;
+
 extern "C" {
     fn tree_sitter_agda() -> Language;
     fn tree_sitter_bash() -> Language;
@@ -157,27 +161,27 @@ impl ViewState {
     }
 
     fn highlight(&self) {
-        if let Some(ref tree) = self.tree {
-            let mut visited_children = false;
-            let mut cursor = tree.root_node().walk();
+        // Only send over scopes for nodes that have changes
+        let scopes: Vec<String> = self
+            .tree
+            .as_ref()
+            .map(TreeIter::new)
+            .into_iter()
+            .flat_map(|tree_iter| tree_iter)
+            .filter(|node| node.has_changes())
+            .map(|node| {
+                println!(
+                    "Walk: {:?}, kind {}, kind id {}, changes {}, error {}",
+                    node,
+                    node.kind(),
+                    node.kind_id(),
+                    node.has_changes(),
+                    node.has_error()
+                );
+                node.kind().to_string()
+            }).collect();
 
-            loop {
-                let node = cursor.node();
-                println!("Walk: {:?}, kind {:?}, kind id {:?}", node, node.kind(), node.kind_id());
-
-                if !visited_children && cursor.goto_first_child() {
-                    continue;
-                }
-
-                if cursor.goto_next_sibling() {
-                    visited_children = false;
-                } else if cursor.goto_parent() {
-                    visited_children = true;
-                } else {
-                    break;
-                }
-            }
-        }
+        println!("Scopes: {:?}", scopes);
     }
 
     fn change_language(&mut self, language_id: &LanguageId) {
