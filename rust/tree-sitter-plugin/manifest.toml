@@ -2,4 +2,7 @@
 # At the very least it must contain these three fields:
 name = "tree-sitter-plugin"
 version = "0.0"
+scope = "global"
 exec_path = "./bin/xi-tree-sitter-plugin"
+activations = ["autorun"]
+commands = []
